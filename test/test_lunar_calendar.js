@@ -31,6 +31,7 @@ function main() {
     } catch (e) {
         console.log(e.message == 'Invalid Year');
     }
+    console.log(getLunar(1991, 2, 1));
 }
 
 main();
