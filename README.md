@@ -24,7 +24,7 @@ console.log(getLunar(1991, 2, 1));
 `dist/chinese_lunar_calendar.min.js` 是打包好的库，可用于浏览器可以直接引入，[简单例子](https://github.com/linlifengx/chinese_lunar_calendar/tree/master/test/test.html)
 
 # 原理
-这个库是通过抓取香港天文台(http://data.weather.gov.hk/gts/time/calendar/text/T2019c.txt)的数据，
+这个库是通过抓取香港天文台 (http://data.weather.gov.hk/gts/time/calendar/text/T2019c.txt) 的数据，
 把每年闰月月份和每月的大小保存下来编码压缩，先解压生成数据表，再通过查表算出农历日期和节气
 
 # 注意!!
