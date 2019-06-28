@@ -1,5 +1,5 @@
 {
-  "name": "chinese_lunar_calendar",
+  "name": "chinese-lunar-calendar",
   "version": "1.0.0",
   "description": "",
   "main": "src/lunar_calendar.js",
@@ -14,5 +14,9 @@
   "devDependencies": {
     "webpack": "^4.35.0",
     "webpack-cli": "^3.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linlifengx/chinese_lunar_calendar.git"
   }
 }
