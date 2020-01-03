@@ -66,7 +66,7 @@ function getLunarStr(month, date, isLeap) {
     } else if (date < 20) {
         return `${monthStr}十${nubmerStr[date - 11]}`;
     } else if (date == 20) {
-        return `${monthStr}廿十`;
+        return `${monthStr}二十`;
     } else if (date > 20) {
         return `${monthStr}廿${nubmerStr[date - 21]}`;
     } else {
