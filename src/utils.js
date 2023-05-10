@@ -9,7 +9,7 @@ function base64ToBit(base64Str) {
 }
 
 function checkDate(year, month, date) {
-    if (year < 1901 || year > 2100) {
+    if (year < 1900 || year > 2100) {
         throw new Error('Invalid Year');
     }
     if (month < 1 || month > 12) {
